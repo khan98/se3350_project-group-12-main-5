@@ -1,0 +1,95 @@
+.table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game {
+  color: white;
+}
+
+.progressBar {
+  font-size: 1em;
+}
+
+.question {
+  font-size: 2em;
+  padding-top: 2em;
+}
+
+.Leveltemplate {
+  color: white;
+}
+
+#centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 0.2em;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+ul#horizontal-list {
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0.1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+ul#horizontal-list li {
+  display: inline;
+  color: white;
+  background-color: #444465;
+  font-size: 1.5em;
+  padding: 0.1em;
+  border-radius: 5px;
+  border: none;
+  margin: 0.1em;
+  
+}
+
+button {
+  background-color: #444465;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 10px;
+  outline: none;
+  padding: 13px 10px;
+}
+
+#wrapper{
+  overflow:  hidden;
+  align-items: center;
+  justify-content: center;
+}
+#inner1 {
+  width: 600px;
+  float:left; 
+  justify-content: center;
+  
+}
+
+#inner2 {
+  width: 300px;
+  float:left; 
+  justify-content: center;
+  
+}
+
+#inner3 {
+  width: 150px;
+  float:left; 
+  justify-content: center;
+  
+}
